@@ -50,7 +50,8 @@
 <h6>heading 6</h6>
 ```
 
-> [!NOTE] Each and every webpage should only have one h1 heading i.e. only one primary heading. This is very important to keep in mind. This is not really mandatory i.e. it does not violate any HTML rules if we have multiple h1s, but it is a good practice to always just have one of them. The other ones, we can have multiple of them.
+> [!NOTE]
+> Each and every webpage should only have one h1 heading i.e. only one primary heading. This is very important to keep in mind. This is not really mandatory i.e. it does not violate any HTML rules if we have multiple h1s, but it is a good practice to always just have one of them. The other ones, we can have multiple of them.
 
 - `<!-- comment -->` HTML Comments
 - `<b></b>` - Bold text
