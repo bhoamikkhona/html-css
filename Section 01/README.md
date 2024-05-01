@@ -17,7 +17,7 @@
     - With this, you should have a basic understanding of what actually happens when we browse a website along with the technologies that we use to build any website.
     - The process of writing HTML, CSS, and JavaScript code that the browser can understand is the process that we call front-end web development.
     - Front-end web development means writing the code that is displayed in a browser - basically the front-end of a website. In fact, this is essentially what we are going to learn in this course, or at least the very fundamentals of front-end development, which is learning HTML and CSS.
-    - > [!NOTE] Whenever the files that make up the website are simply stored on the web server and are then sent to the browser as they are, we say that we have a <ins>static website</ins>.
+    - **NOTE:** Whenever the files that make up the website are simply stored on the web server and are then sent to the browser as they are, we say that we have a <ins>static website</ins>.
     - Now let's talk about backend development. This time, let's try to understand what happens when we try to access a website like udemy.com.
     - The first step is that a request is sent to the web server where udemy.com is hosted.
     - Why is udemy.com so different from a static website such as omnifood.dev?
