@@ -19,6 +19,7 @@
     - [Pseudo-Classes](#pseudo-classes)
     - [Styling Hyperlinks](#styling-hyperlinks)
     - [Using Chrome DevTools](#using-chrome-devtools)
+    - [CSS Theory 01: Conflicts Between Selectors](#css-theory-01-conflicts-between-selectors)
   - [Author](#author)
 
 ## Lessons Learned
@@ -219,6 +220,28 @@ article p:first-child {
 ### Using Chrome DevTools
 
 - User Agent Stylesheet i.e. default styles
+
+### CSS Theory 01: Conflicts Between Selectors
+
+- ![image](https://github.com/bhoamikkhona/html-css/assets/143898153/79ffeaec-9127-4de1-9c49-77f87de29f98)
+- ![image](https://github.com/bhoamikkhona/html-css/assets/143898153/7610fab5-ef22-4559-a42d-229226085fc6)
+- Conflicting CSS rules and how they are resolved i.e. which ones get apply onto the element and show on the UI.
+- Highest to Lowest Selector Priorities:
+  - Declarations marked with `!important` - should not use unless absolutely necessary
+  - Inline Styles - should not use, bad practice
+  - ID Selectors
+  - Class Selector
+  - Element Selector
+  - Universal Selector
+
+> [!NOTE]
+> A class can have the exact same name as an ID, that is not a problem.
+
+> [!NOTE]
+> Pseudo classes add to class specificity.
+
+> [!NOTE]
+> Instead of using `!important` keyword, try and resolve the CSS by using simpler selectors. `!important` keyword should be the absolute last resort when everything else fails.
 
 ## Author
 

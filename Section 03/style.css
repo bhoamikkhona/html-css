@@ -126,3 +126,16 @@ a:active {
   color: black;
   font-style: italic;
 }
+
+/* Resolving Conflict */
+/* #copyright {
+  color: red;
+}
+
+.copyright {
+  color: yellow;
+}
+
+footer p {
+  color: green;
+} */
