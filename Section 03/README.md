@@ -18,6 +18,7 @@
       - [CSS Properties](#css-properties)
     - [Pseudo-Classes](#pseudo-classes)
     - [Styling Hyperlinks](#styling-hyperlinks)
+    - [Using Chrome DevTools](#using-chrome-devtools)
   - [Author](#author)
 
 ## Lessons Learned
@@ -214,6 +215,10 @@ article p:first-child {
   - `:hover` - when hovering over the link
   - `:active` - when clicking on the link
 - `text-decoration`
+
+### Using Chrome DevTools
+
+- User Agent Stylesheet i.e. default styles
 
 ## Author
 
