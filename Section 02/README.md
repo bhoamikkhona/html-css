@@ -2,6 +2,23 @@
 
 **About:** In this section, we will learn the fundamental language of web developmentm which is HTML. You will learn about the most important HTML elements such as headings, paragraphs, lists, images, links, and more.
 
+## Table of Content
+
+- [Section 02: HTML Fundamentals](#section-02-html-fundamentals)
+  - [Table of Content](#table-of-content)
+  - [Lessons Learned](#lessons-learned)
+    - [Introduction to HTML](#introduction-to-html)
+    - [HTML Document Structure](#html-document-structure)
+    - [Text Elements](#text-elements)
+    - [More Text Elements: Lists](#more-text-elements-lists)
+    - [Images and Attributes](#images-and-attributes)
+    - [Hyperlinks](#hyperlinks)
+    - [Structuring our Page](#structuring-our-page)
+    - [A Note on Semantic HTML](#a-note-on-semantic-html)
+    - [Challenge 01](#challenge-01)
+    - [Challenge 02](#challenge-02)
+  - [Author](#author)
+
 ## Lessons Learned
 
 ### Introduction to HTML
