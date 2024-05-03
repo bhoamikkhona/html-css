@@ -17,6 +17,7 @@
       - [Defining Colors in CSS](#defining-colors-in-css)
       - [CSS Properties](#css-properties)
     - [Pseudo-Classes](#pseudo-classes)
+    - [Styling Hyperlinks](#styling-hyperlinks)
   - [Author](#author)
 
 ## Lessons Learned
@@ -204,6 +205,15 @@ article p:first-child {
 - What this means that when we mix multiple elements inside of a parent element, then these pseudo classes don't really work well.
 - They are however perfect for situations like a list, where all the child elements are the same i.e. in ordered list or in un-ordered list, all the child elements are supposed to be a `<li>` element so in that case, the `:first-child`, `:last-child`, and `:nth-child()` would work perfectly.
 - The pseudo-classes that we just learned are all about matching the existing HTML structure. However, there are also other types of pseudo classes so, let's learn about them in the next lesson.
+
+### Styling Hyperlinks
+
+- Abbreviation LVHA to style links (anchor tags)
+  - `:link` - targets elements with `href` attribute
+  - `:visited` - after we have visited the link
+  - `:hover` - when hovering over the link
+  - `:active` - when clicking on the link
+- `text-decoration`
 
 ## Author
 
