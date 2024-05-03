@@ -20,6 +20,7 @@
     - [Styling Hyperlinks](#styling-hyperlinks)
     - [Using Chrome DevTools](#using-chrome-devtools)
     - [CSS Theory 01: Conflicts Between Selectors](#css-theory-01-conflicts-between-selectors)
+    - [CSS Theory 02: Inheritance and the Universal Selector](#css-theory-02-inheritance-and-the-universal-selector)
   - [Author](#author)
 
 ## Lessons Learned
@@ -242,6 +243,18 @@ article p:first-child {
 
 > [!NOTE]
 > Instead of using `!important` keyword, try and resolve the CSS by using simpler selectors. `!important` keyword should be the absolute last resort when everything else fails.
+
+### CSS Theory 02: Inheritance and the Universal Selector
+
+- Inheritance is a mechanism by which some styles/properties get their values inherited from parent elements to child elements.
+- Not all properties get inherited. The ones that do are mostly about text.
+- An inherited property is very easily overwritten by any rule which has a value for that same property. So in a sense, we can say that inherited values are the ones who have the lowest priority.
+- Inheritance is not the same as selected each and every element on the body and giving them the style that we declare in their parent element. The inherited styles are simply passed down to children.
+- An example of the property that do not get inherited: `border`
+- Universal Selector
+  - Universal selector basically selects each and every element on a webpage and applies the css styles mentioned to it. It is denoted by `*`.
+  - There is no inheritance involved with the universal selector, therefore this is perfect if you want to apply a certain property that does not automatically get inherited to all the elements.
+  - Note that Universal selector has the lowest priority i.e. it will easily be override.
 
 ## Author
 
