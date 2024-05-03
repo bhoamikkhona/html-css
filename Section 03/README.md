@@ -82,6 +82,37 @@ footer p {
 
 ### Class and ID Selectors
 
+- CSS Comments
+- ID Selector
+
+```css
+#author {
+  font-style: italic;
+}
+```
+
+- Class Selector
+
+```css
+.related-author {
+  font-size: 18px;
+}
+```
+
+- The big difference between ID and Class is that we are not allowed to repeat ID names. In other words, we can only use each ID name only once.
+- If we need to re-use a name multiple times then we need to use classes for that.
+- CSS uses kebab case.
+- CSS Properties:
+  - `font-weight`
+  - `list-style`
+
+> [!NOTE]
+> In the real world, we never use IDs; we always use classes. This is because, by using classes, we are prepared for the future.
+>
+> Imagine that we used a list and gave it an ID of "related." Then, sometime later down the road, we wanted to add another list of related posts. At this point, we would have to go back and change the ID to a class so that we could have another element with the same styling without repeating those styles.
+>
+> This would also prevent bugs, considering if we missed one of the CSS rules when converting it from an ID to a class.
+
 ## Author
 
 - [@bhoamikkhona](https://github.com/bhoamikkhona)
