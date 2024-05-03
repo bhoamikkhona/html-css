@@ -16,6 +16,7 @@
       - [RGB Model](#rgb-model)
       - [Defining Colors in CSS](#defining-colors-in-css)
       - [CSS Properties](#css-properties)
+    - [Pseudo-Classes](#pseudo-classes)
   - [Author](#author)
 
 ## Lessons Learned
@@ -152,6 +153,57 @@ footer p {
   - `border-right`
   - `border-bottom`
   - `border-left`
+
+### Pseudo-Classes
+
+- `:first-child`
+- `:last-child`
+- `:nth-child(number)`
+- `:nth-child(even)`
+- `:nth-child(odd)`
+- A misconception of how the pseudo-classes work.
+- Let's say that we wanted to select the first paragraph element that is inside of the `<article>` in the example below:
+
+```html
+<article>
+  <header>
+    <img src="#" alt="example" />
+    <p>lorem ipsum</p>
+  </header>
+</article>
+```
+
+- To do that, you might set the selector like so:
+
+```css
+article p:first-child {
+  color: red;
+}
+```
+
+- Now if we check our page, you will that nothing happened.
+- The misconception is that this selector: `article p:first-child` should have selected the first `<p>` element inside of the `<article>` which would be `<p>lorem ipsum</p>`.
+- Because `<p>lorem ipsum</p>` is the first paragraph inside the article.
+- However, this is not how the `:first-child` pseudo class actually works.
+- Instead, what CSS will do is to select a `<p>` element that is actually the first-child of the article.
+- As of right now `<p>lorem ipsum</p>` is the first paragraph of the article but, it is not the first child of the article. The first child of the article is actually the header.
+- If our HTML was set up like so:
+
+```html
+<article>
+  <p>lorem ipsum dolor</p>
+  <header>
+    <img src="#" alt="example" />
+    <p>lorem ipsum</p>
+  </header>
+</article>
+```
+
+- Then, in this case, the `<p>lorem ipsum dolor</p>` would get the color red because it quite literally is the first child of the article.
+- Therefore, this selector `:first-child` does not work in the way that maybe we might think it would. The same thing goes for `:last-child` and `:nth-child()`
+- What this means that when we mix multiple elements inside of a parent element, then these pseudo classes don't really work well.
+- They are however perfect for situations like a list, where all the child elements are the same i.e. in ordered list or in un-ordered list, all the child elements are supposed to be a `<li>` element so in that case, the `:first-child`, `:last-child`, and `:nth-child()` would work perfectly.
+- The pseudo-classes that we just learned are all about matching the existing HTML structure. However, there are also other types of pseudo classes so, let's learn about them in the next lesson.
 
 ## Author
 
