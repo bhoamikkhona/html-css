@@ -12,6 +12,10 @@
     - [Styling Text](#styling-text)
     - [Combining Selectors](#combining-selectors)
     - [Class and ID Selectors](#class-and-id-selectors)
+    - [Working with Colors](#working-with-colors)
+      - [RGB Model](#rgb-model)
+      - [Defining Colors in CSS](#defining-colors-in-css)
+      - [CSS Properties](#css-properties)
   - [Author](#author)
 
 ## Lessons Learned
@@ -112,6 +116,42 @@ footer p {
 > Imagine that we used a list and gave it an ID of "related." Then, sometime later down the road, we wanted to add another list of related posts. At this point, we would have to go back and change the ID to a class so that we could have another element with the same styling without repeating those styles.
 >
 > This would also prevent bugs, considering if we missed one of the CSS rules when converting it from an ID to a class.
+
+### Working with Colors
+
+- There are many ways of representing colors in computers i.e. writing them in code but, one of the more traditional models is the RGB model.
+
+#### RGB Model
+
+- In the RGB model, every single color can be represented by any combination of red, green, and blue colors.
+- In order to represent a certain color, we need to give each of the three base colors any value between 0 and 255. With that, we can define a total of 16.8 million different colors.
+- Red: rgb(255, 0, 0)
+- Green: rgb(0, 255, 0)
+- Blue: rgb(0, 0, 255)
+- All the colors at 255 gives us white and all the colors at 0 give us black.
+
+#### Defining Colors in CSS
+
+- In CSS, we have 2 ways of writing colors using the RGB model and those are the RGB notation and Hexadecimal notation.
+  - RGB notation example: rgb(238, 68, 67)
+  - Hexadecimal notation example: #ee4443 (r = ee, g = 44, b = 43)
+    - Hexadecimal numbers go from 0 to ff (255 in hexadecimal numbers)
+    - Hexadecimal shorthand, eg #0ff;
+- RGB with Transparency: rgba(238, 68, 67, 0.3) - `a` is called alpha which denotes the opacity of the color.
+- In practice, we mostly use the hexadecimal notations and if we need transparency, we use rgba() function.
+- Shades of Grey
+  - When colors in all 3 channels are the same, we get a grey color.
+  - There are 256 pure greys to choose from.
+
+#### CSS Properties
+
+- `color`
+- `background-color`
+- `border` - it accepts multiple values because it is short-hand property
+  - `border-top`
+  - `border-right`
+  - `border-bottom`
+  - `border-left`
 
 ## Author
 
