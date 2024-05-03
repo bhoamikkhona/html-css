@@ -21,6 +21,7 @@
     - [Using Chrome DevTools](#using-chrome-devtools)
     - [CSS Theory 01: Conflicts Between Selectors](#css-theory-01-conflicts-between-selectors)
     - [CSS Theory 02: Inheritance and the Universal Selector](#css-theory-02-inheritance-and-the-universal-selector)
+- [Challenge 01](#challenge-01)
   - [Author](#author)
 
 ## Lessons Learned
@@ -255,6 +256,11 @@ article p:first-child {
   - Universal selector basically selects each and every element on a webpage and applies the css styles mentioned to it. It is denoted by `*`.
   - There is no inheritance involved with the universal selector, therefore this is perfect if you want to apply a certain property that does not automatically get inherited to all the elements.
   - Note that Universal selector has the lowest priority i.e. it will easily be override.
+
+# Challenge 01
+
+- CSS Properties:
+  - `cursor: pointer`
 
 ## Author
 
