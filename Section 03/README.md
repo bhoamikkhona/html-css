@@ -24,6 +24,7 @@
 - [Challenge 01](#challenge-01)
   - [CSS Theory 03: The CSS Box Model](#css-theory-03-the-css-box-model)
   - [Using Margins and Paddings](#using-margins-and-paddings)
+  - [Adding Dimensions](#adding-dimensions)
   - [Author](#author)
 
 ## Lessons Learned
@@ -325,6 +326,12 @@ article p:first-child {
 
 - Collapsing Margins:
   - When we have two margins occupying the same space, only one of them is actually visible on the appage; and usually, the one visible is the larger of the two.
+
+### Adding Dimensions
+
+- Using `height` and `width` css properties on images.
+- Using % instead of px
+  - The percentage is usually the percentage of the element's parent container.
 
 ## Author
 
