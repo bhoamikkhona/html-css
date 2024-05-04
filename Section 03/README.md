@@ -26,7 +26,7 @@
   - [Using Margins and Paddings](#using-margins-and-paddings)
   - [Adding Dimensions](#adding-dimensions)
   - [Centering our Page](#centering-our-page)
-  - [Challenge 02](#challenge-02)
+  - [CSS Theory 04: Types of Boxes](#css-theory-04-types-of-boxes)
   - [Author](#author)
 
 ## Lessons Learned
@@ -344,9 +344,42 @@ article p:first-child {
   - `auto` value means that the margins on the left and right of the container should be equal and they should be automatically calculated by the browser depending on the viewport.
   - As a result, the container will look centered inside of the body.
 
-### Challenge 02
+### CSS Theory 04: Types of Boxes
 
-- Margins do not work on anchor tags.
+- ![image](https://github.com/bhoamikkhona/html-css/assets/143898153/c847ce11-9184-4e07-8ff1-fcb72c426454)
+- There are different types of boxes in CSS.
+- Inline Boxes:
+  - The types of boxes that only occupy exactly the space that they need for its content are called inline boxes.
+- Block Boxes:
+  - On the other hand, all other boxes, e.g. div, article, and paragraph are called block level boxes or block level elements.
+  - They occupy all the space that they can and create line breaks after them. In other words, they cannot be side by side with one another.
+- Block-Level Elements
+  - Elements are formatted as blocks i.e. big blocks that occupy 100% of their parent element's width.
+  - This is true even if the element doesn't require that much space.
+  - They are stacked vertically by default, one after another.
+  - The box model applies as showed earlier.
+  - By default, most of the HTML elements are block-level elements.
+  - These include: body, main, header, footer, section, nav, aside, div, h1-h6, p, ul, ol, li, etc.
+  - One thing that we can do with CSS is to change from inline boxes to block level boxes, and we can do that with the `display` property set to the value of `block`.
+- Inline Elements
+  - Occupies only the space necessary for its content
+  - Causes no line-breaks after or before the element
+  - Box model applies in a different way: heights and widths do not apply
+  - Paddings and margins are applied only horizontally (left and right)
+  - These include: a, img, strong, em, button, etc.
+  - You can change any element to an inline element by using the `display` property and setting its value to `inline`.
+- This fundamental difference of how the box model works for inline elements is extremely important to always keep in mind.
+- Inline-Block Element
+  - Inline-block element is a mix of inline and block level.
+  - They look like inline from the outside, behaves like block-level on the inside.
+  - This means that they only occupy the space that need for the content and therefore, they do not cause any line-breaks.
+  - But since they behave like block level elements on the inside - this means that the box model applies just as it does for block level elements i.e. we can set heights and widths and we can use margins and paddings just like on block level elements.
+  - Essentially, inline block boxes really combine the best of both block and inline level elements.
+  - In order to create an inline block element, all we have to do is to set the `display` property to `inline-block`, that's it.
+- Chaining pseudo classes
+
+> [!NOTE]
+> Images are inline-block boxes.
 
 ## Author
 
