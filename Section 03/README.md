@@ -25,6 +25,7 @@
   - [CSS Theory 03: The CSS Box Model](#css-theory-03-the-css-box-model)
   - [Using Margins and Paddings](#using-margins-and-paddings)
   - [Adding Dimensions](#adding-dimensions)
+  - [Centering our Page](#centering-our-page)
   - [Author](#author)
 
 ## Lessons Learned
@@ -332,6 +333,15 @@ article p:first-child {
 - Using `height` and `width` css properties on images.
 - Using % instead of px
   - The percentage is usually the percentage of the element's parent container.
+
+### Centering our Page
+
+- There is a simple trick to center the entire page in the browser. Let's learn how.
+  - The very first thing that we need to do in order to pull off this trick is to put all of our content into a container element, because otherwise, if we don't do that, then what is there actually to center in the window?
+  - In other words, all the children elements take up 100% of their parent's width. When we don't have a container, we essentially are taking the entire body as the parent. Therefore we need a container.
+  - Then, set a width of that container, e.g. 700px and then using the property `margin: 0 auto` to center that container.
+  - `auto` value means that the margins on the left and right of the container should be equal and they should be automatically calculated by the browser depending on the viewport.
+  - As a result, the container will look centered inside of the body.
 
 ## Author
 
