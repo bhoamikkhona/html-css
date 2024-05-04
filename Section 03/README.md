@@ -22,6 +22,7 @@
     - [CSS Theory 01: Conflicts Between Selectors](#css-theory-01-conflicts-between-selectors)
     - [CSS Theory 02: Inheritance and the Universal Selector](#css-theory-02-inheritance-and-the-universal-selector)
 - [Challenge 01](#challenge-01)
+  - [CSS Theory 03: The CSS Box Model](#css-theory-03-the-css-box-model)
   - [Author](#author)
 
 ## Lessons Learned
@@ -261,6 +262,38 @@ article p:first-child {
 
 - CSS Properties:
   - `cursor: pointer`
+
+### CSS Theory 03: The CSS Box Model
+
+- The Box Model defines how elements are displayed on a webpage and how they are sized.
+- In a box model, each and every element on a webpage can be seen as a rectangular box, and each of these boxes can have content, a border, and space inside and outside of it.
+- Content:
+  - This is the actual content of the element.
+  - It can be text, images, table, video, etc.
+  - Using CSS properties, we can specify both the height and the width of the content area.
+- Border:
+  - A line around the element, still inside of the element.
+- Padding:
+  - Invisible space around the content, inside of the element, between the content and the border.
+- Margin:
+  - Space outside of the element, between elements.
+- Fill:
+  - Area that gets filled with background color or background image.
+- Content + Padding + Border altogether are the visible part of the element. Around that, we can add some margin in order to create space between elements.
+- All of these are optional. We don't have to specify them. We can define none of them, or some of them, or all of them. It depends on how we want our layout to look like.
+- Finally, there is also something called the fill area. This can be a bit confusing to understand.
+- Remember that the text content and images are inside the content box. The same does not apply for background images or the background color of an element. These properties will be applied not only to the content area, but to the entire fill area, which also includes the padding and the border.
+- Basically, if we apply a background image or color, it will occupy the entire visible part of the element.
+- Element Height and Width Calculation
+  - As mentioned before, we can specify the height and the width of the content area.
+  - If we choose not to define them, then the box model will simply imply them based on the content.
+  - However, the specified or implied heights and widths are actually not the final sized of the element and that's because the border and the padding are also taken into account.
+  - Final element width = left border + left padding + width + right padding + right border
+  - Final element height = top border + top padding + height + bottom padding + bottom border
+  - As you can see, the margin is not part of the width or height calculations of the elements because, it is just space that is around them.
+  - As mentioned before, we can specify all these individual sizes using certain CSS properties.
+  - It is important to note that this way of calculating heights and widths is actually just the default behavior of the box model.
+  - However, we can change this default behavior because it actually doesn't make much sense. We will learn how to do that a bit later.
 
 ## Author
 
