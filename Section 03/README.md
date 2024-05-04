@@ -23,6 +23,7 @@
     - [CSS Theory 02: Inheritance and the Universal Selector](#css-theory-02-inheritance-and-the-universal-selector)
 - [Challenge 01](#challenge-01)
   - [CSS Theory 03: The CSS Box Model](#css-theory-03-the-css-box-model)
+  - [Using Margins and Paddings](#using-margins-and-paddings)
   - [Author](#author)
 
 ## Lessons Learned
@@ -294,6 +295,36 @@ article p:first-child {
   - As mentioned before, we can specify all these individual sizes using certain CSS properties.
   - It is important to note that this way of calculating heights and widths is actually just the default behavior of the box model.
   - However, we can change this default behavior because it actually doesn't make much sense. We will learn how to do that a bit later.
+
+### Using Margins and Paddings
+
+- An element which has a background color, could always use some padding.
+- CSS Properties:
+  - `padding` and its shorthands
+    - `padding-top`
+    - `padding-right`
+    - `padding-bottom`
+    - `padding-left`
+- Global Reset
+
+  - All the elements have default styling attached to them and those make it quite hard for us to style our page.
+  - In order to avoid that unnecessary difficulty, we do something called the global reset.
+  - Margin and Padding do not get inherited from one element to its child so, we cannot use inheritance for that.
+  - Instead, we can use the universal selector which selects all the elements on a webpage and gives them the style we provide.
+  - What we do is, we use the universal selector and within that, we set the margin and padding to 0 in order to global reset. This makes sense because the universal selector has a very low priority i.e. it is very easy to over-write it.
+
+> [!NOTE]
+>
+> When you want to create space between elements, choose one either margin top or margin bottom. Do not mix them.
+>
+> Margin bottom is more preferable.
+
+> [!NOTE]
+>
+> After we global reset the webpage, you will notice that if you have any `<ol>` or `<ul>` elements on the page, their bullets will be gone. This because they need left margin to show.
+
+- Collapsing Margins:
+  - When we have two margins occupying the same space, only one of them is actually visible on the appage; and usually, the one visible is the larger of the two.
 
 ## Author
 
