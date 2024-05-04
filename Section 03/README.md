@@ -26,6 +26,7 @@
   - [Using Margins and Paddings](#using-margins-and-paddings)
   - [Adding Dimensions](#adding-dimensions)
   - [Centering our Page](#centering-our-page)
+  - [Challenge 02](#challenge-02)
   - [Author](#author)
 
 ## Lessons Learned
@@ -342,6 +343,10 @@ article p:first-child {
   - Then, set a width of that container, e.g. 700px and then using the property `margin: 0 auto` to center that container.
   - `auto` value means that the margins on the left and right of the container should be equal and they should be automatically calculated by the browser depending on the viewport.
   - As a result, the container will look centered inside of the body.
+
+### Challenge 02
+
+- Margins do not work on anchor tags.
 
 ## Author
 
