@@ -28,6 +28,7 @@
   - [Centering our Page](#centering-our-page)
   - [CSS Theory 04: Types of Boxes](#css-theory-04-types-of-boxes)
   - [CSS Theory 05: Absolute Positioning](#css-theory-05-absolute-positioning)
+  - [Pseudo-Elements](#pseudo-elements)
   - [Author](#author)
 
 ## Lessons Learned
@@ -408,6 +409,39 @@ article p:first-child {
   - With absolute positioning you can basically put any element that you want wherever you want it to be on the page.
   - However, it is important that you do not abuse this newfound power i.e. don't use it build complex layouts, for example.
   - Instead, we use absolute positioning for single elements like a button.
+
+### Pseudo-Elements
+
+- Pseudo elements are elements that don't exist in the HTML but, we can still select and style them in CSS.
+- Some examples:
+  - First letter of a paragraph
+  - First line of a paragraph
+- Pseudo Elements:
+  - `::first-letter`
+  - `::first-line`
+- Adjacent Element Selector or Adjacent Sibling Selector (`+`)
+  - A sibling element is basically an element that is part of the same parent.
+  - Adjacent Sibling is a sibling which is the very next element of the element selected.
+  - Example:
+
+```css
+/* Only the paragraphs that are immediately after h3 are selected */
+h3 + p::first-line {
+  color: red;
+}
+```
+
+> [!NOTE]
+> Pseudo-classes are written with one colon e.g. `:hover`, and pseudo-elements are written with two colons e.g. `::first-letter`.
+
+- After and Before Pseudo Elements (most used and most important pseudo elements)
+  - They are often used to add cosmetic content to an element with the `content` property. It is inline by default.
+  - `::after` - creates a pseudo-element that is the last child of the selected element.
+  - `::before` - creates a pseudo-element that is the first child of the selected element.
+  - This might sound strange but, it can be very useful for some small cosmetic style for which we don't necessarily want to add a new element to the HTML.
+  - In `::before` and `::after` pseudo-elements, the `content` property is mandatory to mention, even if its value is just an empty string. Otherwise, it won't work.
+  - By default, any pseudo-element is actually an inline element. So, if we want to give it any padding, we want the box model to apply to it normally. To do that we set the `display` property to `inline-block`.
+- Setting negative values to `top`, `left`, `right`, and `bottom` in absolute positioning.
 
 ## Author
 
