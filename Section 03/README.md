@@ -27,6 +27,7 @@
   - [Adding Dimensions](#adding-dimensions)
   - [Centering our Page](#centering-our-page)
   - [CSS Theory 04: Types of Boxes](#css-theory-04-types-of-boxes)
+  - [CSS Theory 05: Absolute Positioning](#css-theory-05-absolute-positioning)
   - [Author](#author)
 
 ## Lessons Learned
@@ -380,6 +381,33 @@ article p:first-child {
 
 > [!NOTE]
 > Images are inline-block boxes.
+
+### CSS Theory 05: Absolute Positioning
+
+- Normal Flow vs. Absolute Positioning
+  - Normal Flow
+    - Default positioning (`position: relative`)
+    - Element is "in flow"
+    - Elements are simply laid out according to their order in the HTML code.
+  - Absolute Positioning
+    - Allows us to absolutely position an element across the page.
+    - `position: absolute`
+    - Element is removed from the normal flow: "out of flow"
+    - The absolutely positioned element completely loses any impact on surrounding elements and in fact, it might even overlap them.
+    - We use `top`, `bottom`, `left`, or `right` to offset the element from its **relatively positioned container**.
+    - By default, the absolutely positioned element is positioned in relation to the view port, which is the visible part of the page.
+    - However, that is usually not what we want.
+    - We want to absolutely position the element in relation to some other parent element.
+    - In order to do that, we need to specifically set the position of that parent element to relative.
+
+> [!NOTE]
+>
+> To absolutely position an element with a relatively posiitoned parent element, the absolute element NEEDS to be a child of relative element. Otherwise it won't work.
+
+- Summary
+  - With absolute positioning you can basically put any element that you want wherever you want it to be on the page.
+  - However, it is important that you do not abuse this newfound power i.e. don't use it build complex layouts, for example.
+  - Instead, we use absolute positioning for single elements like a button.
 
 ## Author
 
