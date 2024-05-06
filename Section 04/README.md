@@ -8,6 +8,7 @@
   - [Table of Content](#table-of-content)
   - [Lessons Learned](#lessons-learned)
     - [The 3 Ways of Building Layouts](#the-3-ways-of-building-layouts)
+    - [Using Floats](#using-floats)
   - [Author](#author)
 
 ## Lessons Learned
@@ -32,6 +33,18 @@
   - CSS Grid
     - For laying out element in a fully-fledged 2-dimensional grid.
     - Perfect for page layouts and complex components.
+
+### Using Floats
+
+- ![image](https://github.com/bhoamikkhona/html-css/assets/143898153/5af210af-7e77-4c95-b9f6-b82af77ca74a)
+- Float elements kind of behave like absolutely positioned elements.
+- Floats are not actually a positioning scheme, like absolute positioning but, they are still another way in which elements can be out of flow.
+- When an element is floated, it is removed out of the normal flow.
+- What's different about this is that floating elements still have an impact on the surrounding elements.
+  - Text and inline elements will actually wrap around the floated element.
+- The container element will not adjust its height to the floated element. Therefore, it results in <ins>collapsing element</ins> phenomenon.
+- CSS Properties:
+  - `float`
 
 ## Author
 
