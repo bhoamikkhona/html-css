@@ -22,6 +22,8 @@
 
         width: 825px;
         margin: 50px auto;
+
+        position: relative;
       }
 
       .product-title {
@@ -45,14 +47,60 @@
         margin-bottom: 20px;
       }
 
+      .sale {
+        background-color: #ec2f2f;
+        color: #fff;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 7px 15px;
+        display: inline-block;
+        /* width: 40px;
+        text-align: center; */
+        position: absolute;
+        top: -17px;
+        left: -38px;
+        letter-spacing: 2px;
+      }
+
       .more-info:link,
       .more-info:visited {
         color: black;
+        margin-bottom: 30px;
+        display: inline-block;
       }
 
       .more-info:hover,
       .more-info:active {
         text-decoration: none;
+      }
+
+      .color {
+        background-color: #000;
+        height: 22px;
+        width: 22px;
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      .color-blue {
+        background-color: #2f6ee2;
+      }
+
+      .color-red {
+        background-color: #ec2f2f;
+      }
+
+      .color-yello {
+        background-color: #f0bf1e;
+      }
+
+      .color-green {
+        background-color: #90cc20;
+      }
+
+      .color-brown {
+        background-color: #885214;
       }
 
       /* PRODUCT DETAILS */
@@ -103,6 +151,7 @@
 
       <p class="price"><strong>$65.00</strong></p>
       <p class="shipping">Free shipping</p>
+      <p class="sale">Sale</p>
       <p>
         Ready to dress up or down, these classic canvas Chucks are an everyday
         wardrobe staple.
@@ -111,6 +160,15 @@
       <a class="more-info" href="https://www.converse.com" target="_blank"
         >More information &rarr;</a
       >
+
+      <div class="colors">
+        <div class="color"></div>
+        <div class="color color-blue"></div>
+        <div class="color color-red"></div>
+        <div class="color color-yellow"></div>
+        <div class="color color-green"></div>
+        <div class="color color-brown"></div>
+      </div>
 
       <h3 class="details-title">Product details</h3>
       <ul class="details-list">

@@ -31,6 +31,7 @@
   - [Pseudo-Elements](#pseudo-elements)
   - [Developer Skill 01: Googling and Reading Documentation](#developer-skill-01-googling-and-reading-documentation)
   - [Developer Skill 02: Debugging and Asking Questions](#developer-skill-02-debugging-and-asking-questions)
+  - [Challenge 03](#challenge-03)
   - [Author](#author)
 
 ## Lessons Learned
@@ -457,6 +458,11 @@ h3 + p::first-line {
 - [Markup Validation Service](https://validator.w3.org/)
 - [Diff Checker](https://www.diffchecker.com/)
 - A rule of thumb: Besides the rules that we already learned before about selector priority, if one selector is way more complex than the other, then many times, it is the more complex one that gets applied. Therefore, avoid writing complex selectors.
+
+### Challenge 03
+
+- CSS Properties:
+  - `letter-spacing`
 
 ## Author
 
