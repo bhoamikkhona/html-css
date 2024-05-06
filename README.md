@@ -7,7 +7,7 @@
 - [Section 01](./Section%2001): Introduction
 - [Section 02](./Section%2002): HTML Fundamentals
 - [Section 03](./Section%2003): CSS Fundamentals
-- Section 04: Building Layouts
+- [Section 04](./Section%2004): Building Layouts
 - Section 05: Web Design Framework
 - Section 06: Components and Layouts
 - Section 07: Omnifood - Desktop
