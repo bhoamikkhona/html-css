@@ -11,6 +11,7 @@
     - [Using Floats](#using-floats)
     - [Clearing Floats](#clearing-floats)
     - [Building a Simple Float Layout](#building-a-simple-float-layout)
+    - [box-sizing: border-box](#box-sizing-border-box)
   - [Author](#author)
 
 ## Lessons Learned
@@ -71,6 +72,18 @@
 ### Building a Simple Float Layout
 
 - Using the `float` and `clear` property to create a simple layout using footer, aside, and article.
+
+### box-sizing: border-box
+
+- ![image](https://github.com/bhoamikkhona/html-css/assets/143898153/55a0ef68-9936-4ce0-8cc4-480b41d234b3)
+- `box-sizing: border-box`
+- This tells the browser to account for any border and padding in the values you specify for an element's width and height. If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width.
+- This typically makes it much easier to size elements.
+
+> [!NOTE]
+> The default value (default behavior) of `box-sizing` is `content-box`.
+
+> [!NOTE] > `box-sizing` is not one of those properties that get inherited. So, in order to apply it all the elements on a webpage/website, use it on the universal selector.
 
 ## Author
 
