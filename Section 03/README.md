@@ -30,6 +30,7 @@
   - [CSS Theory 05: Absolute Positioning](#css-theory-05-absolute-positioning)
   - [Pseudo-Elements](#pseudo-elements)
   - [Developer Skill 01: Googling and Reading Documentation](#developer-skill-01-googling-and-reading-documentation)
+  - [Developer Skill 02: Debugging and Asking Questions](#developer-skill-02-debugging-and-asking-questions)
   - [Author](#author)
 
 ## Lessons Learned
@@ -450,6 +451,12 @@ h3 + p::first-line {
 - [MDN Docs](https://developer.mozilla.org/en-US/)
 - [CSS Tricks](https://css-tricks.com/)
 - [W3 Schools](https://www.w3schools.com/) (Not Recommended)
+
+### Developer Skill 02: Debugging and Asking Questions
+
+- [Markup Validation Service](https://validator.w3.org/)
+- [Diff Checker](https://www.diffchecker.com/)
+- A rule of thumb: Besides the rules that we already learned before about selector priority, if one selector is way more complex than the other, then many times, it is the more complex one that gets applied. Therefore, avoid writing complex selectors.
 
 ## Author
 
