@@ -21,17 +21,17 @@
     - [Using Chrome DevTools](#using-chrome-devtools)
     - [CSS Theory 01: Conflicts Between Selectors](#css-theory-01-conflicts-between-selectors)
     - [CSS Theory 02: Inheritance and the Universal Selector](#css-theory-02-inheritance-and-the-universal-selector)
-- [Challenge 01](#challenge-01)
-  - [CSS Theory 03: The CSS Box Model](#css-theory-03-the-css-box-model)
-  - [Using Margins and Paddings](#using-margins-and-paddings)
-  - [Adding Dimensions](#adding-dimensions)
-  - [Centering our Page](#centering-our-page)
-  - [CSS Theory 04: Types of Boxes](#css-theory-04-types-of-boxes)
-  - [CSS Theory 05: Absolute Positioning](#css-theory-05-absolute-positioning)
-  - [Pseudo-Elements](#pseudo-elements)
-  - [Developer Skill 01: Googling and Reading Documentation](#developer-skill-01-googling-and-reading-documentation)
-  - [Developer Skill 02: Debugging and Asking Questions](#developer-skill-02-debugging-and-asking-questions)
-  - [Challenge 03](#challenge-03)
+    - [Challenge 01](#challenge-01)
+    - [CSS Theory 03: The CSS Box Model](#css-theory-03-the-css-box-model)
+    - [Using Margins and Paddings](#using-margins-and-paddings)
+    - [Adding Dimensions](#adding-dimensions)
+    - [Centering our Page](#centering-our-page)
+    - [CSS Theory 04: Types of Boxes](#css-theory-04-types-of-boxes)
+    - [CSS Theory 05: Absolute Positioning](#css-theory-05-absolute-positioning)
+    - [Pseudo-Elements](#pseudo-elements)
+    - [Developer Skill 01: Googling and Reading Documentation](#developer-skill-01-googling-and-reading-documentation)
+    - [Developer Skill 02: Debugging and Asking Questions](#developer-skill-02-debugging-and-asking-questions)
+    - [Challenge 03](#challenge-03)
   - [Author](#author)
 
 ## Lessons Learned
@@ -267,7 +267,7 @@ article p:first-child {
   - There is no inheritance involved with the universal selector, therefore this is perfect if you want to apply a certain property that does not automatically get inherited to all the elements.
   - Note that Universal selector has the lowest priority i.e. it will easily be override.
 
-# Challenge 01
+### Challenge 01
 
 - CSS Properties:
   - `cursor: pointer`
