@@ -29,6 +29,7 @@
   - [CSS Theory 04: Types of Boxes](#css-theory-04-types-of-boxes)
   - [CSS Theory 05: Absolute Positioning](#css-theory-05-absolute-positioning)
   - [Pseudo-Elements](#pseudo-elements)
+  - [Developer Skill 01: Googling and Reading Documentation](#developer-skill-01-googling-and-reading-documentation)
   - [Author](#author)
 
 ## Lessons Learned
@@ -442,6 +443,13 @@ h3 + p::first-line {
   - In `::before` and `::after` pseudo-elements, the `content` property is mandatory to mention, even if its value is just an empty string. Otherwise, it won't work.
   - By default, any pseudo-element is actually an inline element. So, if we want to give it any padding, we want the box model to apply to it normally. To do that we set the `display` property to `inline-block`.
 - Setting negative values to `top`, `left`, `right`, and `bottom` in absolute positioning.
+
+### Developer Skill 01: Googling and Reading Documentation
+
+- [Stack Overflow](https://stackoverflow.com/)
+- [MDN Docs](https://developer.mozilla.org/en-US/)
+- [CSS Tricks](https://css-tricks.com/)
+- [W3 Schools](https://www.w3schools.com/) (Not Recommended)
 
 ## Author
 
