@@ -10,6 +10,7 @@
     - [The 3 Ways of Building Layouts](#the-3-ways-of-building-layouts)
     - [Using Floats](#using-floats)
     - [Clearing Floats](#clearing-floats)
+    - [Building a Simple Float Layout](#building-a-simple-float-layout)
   - [Author](#author)
 
 ## Lessons Learned
@@ -66,6 +67,10 @@
 
 - CSS Properties:
   - `clear`
+
+### Building a Simple Float Layout
+
+- Using the `float` and `clear` property to create a simple layout using footer, aside, and article.
 
 ## Author
 
