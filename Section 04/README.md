@@ -9,6 +9,7 @@
   - [Lessons Learned](#lessons-learned)
     - [The 3 Ways of Building Layouts](#the-3-ways-of-building-layouts)
     - [Using Floats](#using-floats)
+    - [Clearing Floats](#clearing-floats)
   - [Author](#author)
 
 ## Lessons Learned
@@ -45,6 +46,26 @@
 - The container element will not adjust its height to the floated element. Therefore, it results in <ins>collapsing element</ins> phenomenon.
 - CSS Properties:
   - `float`
+
+### Clearing Floats
+
+- Using the `clear` property on the last adjacent sibling of floated elements would fix the issue of collapsing elements.
+- Another way to fix collapsing elements is "Clear fix hack".
+  - On the element which has the collapsed height, we add a class called "clearfix".
+  - In CSS, we select the "clearfix" class and add, in particular, the `::after` pseudo element.
+    - Remember that `::after` pseudo element creates a new element which will be the last child element of the container.
+    - Doing this is exactly the same as creating an empty div with the class of "clear" but, without having to clutter the HTML.
+  - Now we can simply use the `clear` property on the pseudo element and set it to `both`.
+
+> [!NOTE]
+> Clearing floats only works on block level element.
+>
+> So, when using the clear fix hack, make sure to set `display` to `block`.
+>
+> Also, remember that `::after` won't show unless you use `content: ""` so, don't forget to mention that as well.
+
+- CSS Properties:
+  - `clear`
 
 ## Author
 
