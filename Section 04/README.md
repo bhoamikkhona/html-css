@@ -13,6 +13,7 @@
     - [Building a Simple Float Layout](#building-a-simple-float-layout)
     - [box-sizing: border-box](#box-sizing-border-box)
     - [Introduction to Flexbox](#introduction-to-flexbox)
+    - [Flexbox Overview](#flexbox-overview)
   - [Author](#author)
 
 ## Lessons Learned
@@ -95,6 +96,41 @@
   - `display: flex`
   - `align-items`
   - `justify-content`
+
+### Flexbox Overview
+
+- What is Flexbox?
+  - It is a set of related **CSS properties** for **building 1-dimensional layouts**.
+  - The main idea behind flexbox is that empty space inside a container element can be **automatically divided** by its child elements.
+  - Flexbox makes it easy to automatically **align items to one another** inside a parent container, both horizontally and vertically.
+  - Flexbox solves common problems such as **vertical centering** and creating **equal-height columns**.
+  - Flexbox is perfect for **replacing floats**, allowing us to write fewer and cleaner HTML and CSS code.
+- Flexbox Terminology
+  - ![image](https://github.com/bhoamikkhona/html-css/assets/143898153/ce020064-b964-401e-9baf-aacfeb105d9d)
+  - The element on which we want to use Flexbox is called the **flex container**.
+  - All we have to do in order to create a flex container is to set its `display` property to `flex`.
+  - If we do this, then all the direct children of that flex container will become the so-called **flex items**.
+  - This is important to know and to keep in mind because we will use different properties on the flex container and on the flex items.
+  - The direction in which these flex items are laid out is called the **main axis**.
+  - The other, perpendicular axis is simply called the cross axis.
+  - It is important to know about these names because we can actually change the direction of the main axis, and therefore, also of the cross axis.
+  - We can align elements along the main axis and along the cross axis in different ways.
+  - Therefore, we always need to know which axis we are dealing with.
+- Flex Properties
+  - Flex Container
+    - `gap`
+    - `justify-content`
+    - `align-items`
+    - `flex-direction`
+    - `flex-wrap`
+    - `align-content`
+  - Flex Items
+    - `align-self`
+    - `flex-grow`
+    - `flex-shrink`
+    - `flex-basis`
+    - `flex`
+    - `order`
 
 ## Author
 
