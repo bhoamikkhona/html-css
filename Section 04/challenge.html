@@ -19,6 +19,8 @@
 
       .container {
         /* background-color: red; */
+        display: flex;
+        gap: 40px;
       }
 
       .clearfix::after {
@@ -28,7 +30,6 @@
       }
 
       .product-img {
-        float: left;
         margin-right: 40px;
       }
 
@@ -52,15 +53,19 @@
 
       /* PRODUCT INFORMATION */
       .product-info {
-        width: 243px;
-        float: left;
-        margin-right: 40px;
+        /* width: 243px; */
         margin-top: 20px;
+        flex: 1;
+      }
+
+      .product-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
       }
 
       .price {
         font-size: 24px;
-        float: left;
       }
 
       .shipping {
@@ -68,9 +73,6 @@
         text-transform: uppercase;
         font-weight: bold;
         color: #777;
-        margin-bottom: 20px;
-        float: right;
-        margin-top: 8px;
       }
 
       .sale {
@@ -90,7 +92,6 @@
       }
 
       .product-description {
-        clear: both;
         margin-bottom: 10px;
       }
 
@@ -106,12 +107,15 @@
         text-decoration: none;
       }
 
+      .product-colors {
+        display: flex;
+        gap: 10px;
+      }
+
       .color {
         background-color: #000;
         height: 22px;
         width: 22px;
-        display: inline-block;
-        margin-right: 10px;
       }
 
       .color-blue {
@@ -137,8 +141,8 @@
       /* PRODUCT DETAILS */
 
       .product-details {
-        width: 243px;
-        float: left;
+        /* width: 243px; */
+        flex: 1;
         margin-top: 20px;
       }
 
@@ -180,7 +184,7 @@
     <article class="product">
       <h2 class="product-title">Converse Chuck Taylor All Star Low Top</h2>
 
-      <div class="container clearfix">
+      <div class="container">
         <img
           src="./images/challenges.jpg"
           alt="Chuck Taylor All Star Shoe"
@@ -190,8 +194,10 @@
         />
 
         <div class="product-info">
-          <p class="price"><strong>$65.00</strong></p>
-          <p class="shipping">Free shipping</p>
+          <div class="product-price">
+            <p class="price"><strong>$65.00</strong></p>
+            <p class="shipping">Free shipping</p>
+          </div>
           <p class="sale">Sale</p>
           <p class="product-description">
             Ready to dress up or down, these classic canvas Chucks are an
@@ -202,7 +208,7 @@
             >More information &rarr;</a
           >
 
-          <div class="colors">
+          <div class="product-colors">
             <div class="color"></div>
             <div class="color color-blue"></div>
             <div class="color color-red"></div>
