@@ -14,6 +14,7 @@
     - [box-sizing: border-box](#box-sizing-border-box)
     - [Introduction to Flexbox](#introduction-to-flexbox)
     - [Flexbox Overview](#flexbox-overview)
+    - [Spacing and Aligning Flex Items](#spacing-and-aligning-flex-items)
   - [Author](#author)
 
 ## Lessons Learned
@@ -131,6 +132,32 @@
     - `flex-basis`
     - `flex`
     - `order`
+
+### Spacing and Aligning Flex Items
+
+- `justify-content` is used to align items along the main axis.
+- `align-items` is used to align items along the cross axis.
+- `order`:
+  - The `order` property is designed to lay the items out in ordinal groups. This means that items are assigned an integer that represents their group. The items are then placed in the visual order according to that integer, lowest values first. If more than on item has the same integer value, then within that group the items are laid out as per source order.
+  - As an exmaple, we have 5 flex items, and assign `order` values as follows:
+    - Source item 1: `order: 2`
+    - Source item 2: `order: 3`
+    - Source item 3: `order: 1`
+    - Source item 4: `order: 3`
+    - Source item 5: `order: 1`
+    - These items would be displayed on the page in the following order:
+    - Source item 3: order: 1
+    - Source item 5: order: 1
+    - Source item 1: order: 2
+    - Source item 2: order: 3
+    - Source item 4: order: 3
+    - ![image](https://github.com/bhoamikkhona/html-css/assets/143898153/5570b6ff-6a00-408c-b057-6b634596bb15)
+  - You can play around with the values and see how that changes the order.
+  - Also, try changing `flex-direction` to `row-reverse` and see what happens -- the start line is switched so the ordering behings from the opposite side.
+  - Flex items have a default `order` value of `0`, therefore items with an integer value greater that 0 will be displayed after any items that have not been given an explicity `order` value.
+  - You can also use negative values with `order`, which can be quite useful.
+  - If you want ot make one item display first and leave the order of all the other items unchanged, you can give that item order of `-1`. As this is lower than 0 the item will always be displayed first.
+- `gap`
 
 ## Author
 
