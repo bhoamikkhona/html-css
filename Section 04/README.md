@@ -18,6 +18,7 @@
     - [The Flex Property](#the-flex-property)
     - [Adding Flexbox to Our Project](#adding-flexbox-to-our-project)
     - [Building a Simple Flexbox Layout](#building-a-simple-flexbox-layout)
+    - [Introduction to CSS Grid](#introduction-to-css-grid)
   - [Author](#author)
 
 ## Lessons Learned
@@ -190,9 +191,24 @@
 - `flex` shorthand:
   - `flex: flex-grow flex-shrink flex-basis`
 
+> [!NOTE]
+> Margins don't work in CSS Grid. Only `gap` would work.
+
 ### Adding Flexbox to Our Project
 
 ### Building a Simple Flexbox Layout
+
+### Introduction to CSS Grid
+
+- In CSS Grid, we have **grid container** and **grid items**.
+- CSS Properties
+  - `display: none`
+  - `display: grid`
+  - `grid-template-columns`
+  - `grid-template-rows`
+  - `gap`
+  - `column-gap`
+  - `row-gap`
 
 ## Author
 
