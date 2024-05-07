@@ -19,14 +19,7 @@
 
       .container {
         /* background-color: red; */
-        display: flex;
         gap: 40px;
-      }
-
-      .clearfix::after {
-        content: "";
-        display: block;
-        clear: both;
       }
 
       .product-img {
@@ -41,6 +34,10 @@
         margin: 50px auto;
 
         position: relative;
+
+        display: grid;
+        grid-template-columns: 250px 1fr 1fr;
+        column-gap: 40px;
       }
 
       .product-title {
@@ -49,6 +46,7 @@
         text-transform: uppercase;
         background-color: #f7f7f7;
         padding: 15px;
+        grid-column: 1/-1;
       }
 
       /* PRODUCT INFORMATION */
@@ -172,6 +170,7 @@
         padding: 15px;
         width: 100%;
         border-top: 4px solid black;
+        grid-column: 1/-1;
       }
 
       .add-cart:hover {
@@ -184,49 +183,49 @@
     <article class="product">
       <h2 class="product-title">Converse Chuck Taylor All Star Low Top</h2>
 
-      <div class="container">
-        <img
-          src="./images/challenges.jpg"
-          alt="Chuck Taylor All Star Shoe"
-          height="250"
-          width="250"
-          class="product-img"
-        />
+      <!-- <div class="container"> -->
+      <img
+        src="./images/challenges.jpg"
+        alt="Chuck Taylor All Star Shoe"
+        height="250"
+        width="250"
+        class="product-img"
+      />
 
-        <div class="product-info">
-          <div class="product-price">
-            <p class="price"><strong>$65.00</strong></p>
-            <p class="shipping">Free shipping</p>
-          </div>
-          <p class="sale">Sale</p>
-          <p class="product-description">
-            Ready to dress up or down, these classic canvas Chucks are an
-            everyday wardrobe staple.
-          </p>
-
-          <a class="more-info" href="https://www.converse.com" target="_blank"
-            >More information &rarr;</a
-          >
-
-          <div class="product-colors">
-            <div class="color"></div>
-            <div class="color color-blue"></div>
-            <div class="color color-red"></div>
-            <div class="color color-yellow"></div>
-            <div class="color color-green"></div>
-            <div class="color color-brown"></div>
-          </div>
+      <div class="product-info">
+        <div class="product-price">
+          <p class="price"><strong>$65.00</strong></p>
+          <p class="shipping">Free shipping</p>
         </div>
+        <p class="sale">Sale</p>
+        <p class="product-description">
+          Ready to dress up or down, these classic canvas Chucks are an everyday
+          wardrobe staple.
+        </p>
 
-        <div class="product-details">
-          <h3 class="details-title">Product details</h3>
-          <ul class="details-list">
-            <li>Lightweight, durable canvas sneaker</li>
-            <li>Lightly padded footbed for added comfort</li>
-            <li>Iconic Chuck Taylor ankle patch</li>
-          </ul>
+        <a class="more-info" href="https://www.converse.com" target="_blank"
+          >More information &rarr;</a
+        >
+
+        <div class="product-colors">
+          <div class="color"></div>
+          <div class="color color-blue"></div>
+          <div class="color color-red"></div>
+          <div class="color color-yellow"></div>
+          <div class="color color-green"></div>
+          <div class="color color-brown"></div>
         </div>
       </div>
+
+      <div class="product-details">
+        <h3 class="details-title">Product details</h3>
+        <ul class="details-list">
+          <li>Lightweight, durable canvas sneaker</li>
+          <li>Lightly padded footbed for added comfort</li>
+          <li>Iconic Chuck Taylor ankle patch</li>
+        </ul>
+      </div>
+      <!-- </div> -->
       <button class="add-cart">Add to cart</button>
     </article>
   </body>
