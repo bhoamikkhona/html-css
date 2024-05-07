@@ -8,11 +8,11 @@
 - [Section 02](./Section%2002): HTML Fundamentals
 - [Section 03](./Section%2003): CSS Fundamentals
 - [Section 04](./Section%2004): Building Layouts
-- Section 05: Web Design Framework
-- Section 06: Components and Layouts
-- Section 07: Omnifood - Desktop
-- Section 08: Omnifood - Responsive
-- Section 09: Omnifood - Optimizations
+- [Section 05](./Section%2005): Web Design Rules and Framework
+- Section 06: Components and Layout Patterns
+- Section 07: Omnifood - Setup and Desktop Version
+- Section 08: Omnifood - Responsive Web Design
+- Section 09: Omnifood - Effects, Optimizations, and Deployment
 
 ## Author
 
