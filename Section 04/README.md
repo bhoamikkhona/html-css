@@ -20,6 +20,7 @@
     - [Building a Simple Flexbox Layout](#building-a-simple-flexbox-layout)
     - [Introduction to CSS Grid](#introduction-to-css-grid)
     - [A CSS Grid Overview](#a-css-grid-overview)
+    - [Placing and Spanning Grid Items](#placing-and-spanning-grid-items)
   - [Author](#author)
 
 ## Lessons Learned
@@ -258,6 +259,15 @@
     - `grid-row`
     - `justify-self`
     - `align-self`
+
+### Placing and Spanning Grid Items
+
+- `fr` unit (fr stands for fractions)
+- `repeat()`
+- Implicit and Explicit rows
+  - Explicit rows are the ones that we explicitly define in the `grid-template-rows` property.
+  - Implicit rows are the ones that is automatically created when the defined grid is filled up and more space was needed.
+    - There is a way to style implicit rows but, that isn't in the scope of this course.
 
 ## Author
 
