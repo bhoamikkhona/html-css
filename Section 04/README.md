@@ -12,6 +12,7 @@
     - [Clearing Floats](#clearing-floats)
     - [Building a Simple Float Layout](#building-a-simple-float-layout)
     - [box-sizing: border-box](#box-sizing-border-box)
+    - [Introduction to Flexbox](#introduction-to-flexbox)
   - [Author](#author)
 
 ## Lessons Learned
@@ -84,6 +85,16 @@
 > The default value (default behavior) of `box-sizing` is `content-box`.
 
 > [!NOTE] > `box-sizing` is not one of those properties that get inherited. So, in order to apply it all the elements on a webpage/website, use it on the universal selector.
+
+### Introduction to Flexbox
+
+- Flexbox
+  - Flex Container
+  - Flex Items
+- CSS Properties
+  - `display: flex`
+  - `align-items`
+  - `justify-content`
 
 ## Author
 
