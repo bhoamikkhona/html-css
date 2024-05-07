@@ -15,6 +15,7 @@
     - [Introduction to Flexbox](#introduction-to-flexbox)
     - [Flexbox Overview](#flexbox-overview)
     - [Spacing and Aligning Flex Items](#spacing-and-aligning-flex-items)
+    - [The Flex Property](#the-flex-property)
   - [Author](#author)
 
 ## Lessons Learned
@@ -158,6 +159,34 @@
   - You can also use negative values with `order`, which can be quite useful.
   - If you want ot make one item display first and leave the order of all the other items unchanged, you can give that item order of `-1`. As this is lower than 0 the item will always be displayed first.
 - `gap`
+
+### The Flex Property
+
+- `flex` property:
+  - It is used to size flex items.
+  - It is a short-hand for `flex-grow`, `flex-shrink`, and `flex-basis`.
+- Default Values:
+  - `flex-grow: 0`
+  - `flex-shrink: 1`
+  - `flex-basis: auto`
+- `flex-basis`
+  - When we want to size flex items and in particular with a width, then we usually do not use the `width` property but instead, we use `flex-basis`.
+  - If we want our elements to have a width of 100px: `flex-basis: 100px`
+  - Now, some of the items might have a width of 100px but, when the content is larger than 100px then the element actually extends to fit that content.
+  - This means that `flex-basis` is not really rigid.
+  - It is more like a recommendation that we make to the browser, but the browser will then, based on the content, figure out the optimal length.
+  - If there is not enough space in the flex-container to fit the items witht he size that we describe in the `flex-basis`, then the flexbox is allowed to shrink the flex items by default because `flex-shrink` is set to 1 by default.
+  - However, if we want to change that, we can simply set `flex-shrink` to `0`. But then as a result, the flex-items may overflow out of the flex container.
+  - Therefore, setting `flex-shrink` to `0` is not advisable but, in some situations, it is necessary.
+- `flex-shrink` - It determines whether the flexbox is allowed to shink flex items if necessary or not.
+- `flex-grow`
+  - Finally, there is also the opposite of that, which is `flex-grow` - which determines whether elements are allowed to grow as large as they can or not.
+  - The `flex-grow` CSS property sets the flex grow factor, which specifies how much of the flex container's remaining space should be assigned to the flex items's main size.
+  - When the flex-container's main size is larger than the combined main sizes of the flex items, the extra space is distributed among the flex items, with teach item growth being their growth factor value as a portion of the sum total of all the container's items' flex grow factors.
+  - The `flex-grow` property is specified as a single number.
+  - Negative values are invalid. Defaults to 0.
+- `flex` shorthand:
+  - `flex: flex-grow flex-shrink flex-basis`
 
 ## Author
 
