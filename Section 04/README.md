@@ -23,6 +23,7 @@
     - [Placing and Spanning Grid Items](#placing-and-spanning-grid-items)
     - [Placing and Spanning Grid Items](#placing-and-spanning-grid-items-1)
     - [Aligning Grid Items and Tracks](#aligning-grid-items-and-tracks)
+    - [Building a Simple CSS Grid Layout](#building-a-simple-css-grid-layout)
   - [Author](#author)
 
 ## Lessons Learned
@@ -286,6 +287,8 @@
 - Aligning items INSIDE cells (moving items around inside cells):
   - `align-items`
   - `justify-items`
+
+### Building a Simple CSS Grid Layout
 
 ## Author
 
