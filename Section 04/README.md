@@ -19,6 +19,7 @@
     - [Adding Flexbox to Our Project](#adding-flexbox-to-our-project)
     - [Building a Simple Flexbox Layout](#building-a-simple-flexbox-layout)
     - [Introduction to CSS Grid](#introduction-to-css-grid)
+    - [A CSS Grid Overview](#a-css-grid-overview)
   - [Author](#author)
 
 ## Lessons Learned
@@ -209,6 +210,54 @@
   - `gap`
   - `column-gap`
   - `row-gap`
+
+### A CSS Grid Overview
+
+- What is CSS Grid?
+  - CSS Grid is a set of **CSS Properties** for **building 2-dimensional layouts**.
+  - The main idea behind CSS Grid is that we **divide a container element into rows and columns** that can be filled with its child elements.
+  - In two-dimensional contexts, CSS Grid allows us to write **less nested HTML** and **easier-to-read CSS**.
+  - CSS Grid is **not meant to replace flexbox!** Instead, they work perfectly together. Need a **1D** layout? Use flexbox. Need a **2D** layout? Use CSS Grid.
+- CSS Grid Terminology
+  - ![image](https://github.com/bhoamikkhona/html-css/assets/143898153/7425b4ef-cbe9-4355-afb5-420e03092d7e)
+  - Grid Container:
+    - This is where everything happens and we create a grid container by setting its `display` property to `grid`.
+  - Grid Items:
+    - All the child elements of the grid container will be the grid items.
+  - Row Axis and Column Axis
+    - Unlike flexbox, we cannot change the direction of the row and column axis - which makes it a bit easier ot work with CSS Grid.
+  - ![image](https://github.com/bhoamikkhona/html-css/assets/143898153/fdf57915-36cc-4436-be2b-26c33b77d1bd)
+    - Grid Lines:
+      - Lines that basically divide up the grids and separate the columns adn the rows.
+      - These grid lines are numbered from 1 to number of columns + 1 and 1 through number of rows + 1.
+      - These numbers are important because we can use them to place a grid item exactly in one place in the grid where we want it to be.
+      - The intersection of all these grid lines (grid lines for rows and columns) creates areas in which we can place our grid items.
+      - These areas are called the grid cells.
+    - Grid Cells
+      - Grid cells are always created but, they don't always need to be filled.
+    - Gaps/Gutters
+      - As we saw in the last lesson, we can create spaces between the grid items. These are then called gutters or gaps.
+      - For that we use the following properties: `gap`, `row-gap`, `column-gap`.
+    - Grid Track
+      - A grid track can be a row or also a column.
+      - Each of these are grid tracks.
+      - In the example (image above), we have 2 row tracks and 3 column tracks.
+      - We call them tracks because these concepts are a bit more about the space itself and not about the grid items.
+- Grid Properties
+  - Grid Container
+    - `grid-template-rows`
+    - `grid-template-columns`
+    - `row-gap`
+    - `column-gap`
+    - `justify-items`
+    - `align-items`
+    - `justify-content`
+    - `align-content`
+  - Grid Items
+    - `grid-column`
+    - `grid-row`
+    - `justify-self`
+    - `align-self`
 
 ## Author
 
