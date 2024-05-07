@@ -16,6 +16,7 @@
     - [Flexbox Overview](#flexbox-overview)
     - [Spacing and Aligning Flex Items](#spacing-and-aligning-flex-items)
     - [The Flex Property](#the-flex-property)
+    - [Adding Flexbox to Our Project](#adding-flexbox-to-our-project)
   - [Author](#author)
 
 ## Lessons Learned
@@ -187,6 +188,8 @@
   - Negative values are invalid. Defaults to 0.
 - `flex` shorthand:
   - `flex: flex-grow flex-shrink flex-basis`
+
+### Adding Flexbox to Our Project
 
 ## Author
 
