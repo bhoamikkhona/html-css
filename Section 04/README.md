@@ -22,6 +22,7 @@
     - [A CSS Grid Overview](#a-css-grid-overview)
     - [Placing and Spanning Grid Items](#placing-and-spanning-grid-items)
     - [Placing and Spanning Grid Items](#placing-and-spanning-grid-items-1)
+    - [Aligning Grid Items and Tracks](#aligning-grid-items-and-tracks)
   - [Author](#author)
 
 ## Lessons Learned
@@ -276,6 +277,15 @@
 - `grid-row`
 - `span` keyword
 - Each of the grid lines have two numbers, a positive and a negative number.
+
+### Aligning Grid Items and Tracks
+
+- Aligning tracks inside container (distribute empty space):
+  - `align-content`
+  - `justify-content`
+- Aligning items INSIDE cells (moving items around inside cells):
+  - `align-items`
+  - `justify-items`
 
 ## Author
 
