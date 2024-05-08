@@ -21,6 +21,7 @@
     - [Web Design Rules 06: Border-radius](#web-design-rules-06-border-radius)
     - [Implementing Border-Radius](#implementing-border-radius)
     - [Web Design Rules 07: Whitespace](#web-design-rules-07-whitespace)
+    - [Web Design Rules 08: Visual Hierarchy](#web-design-rules-08-visual-hierarchy)
   - [Author](#author)
 
 ## Lessons Learned
@@ -255,6 +256,40 @@
     - Too much whitespace looks detached, too little looks too crammed
   - Match other design choices. If you have big text or big icons, you need more whitespace
   - Try a hard rule, such as using multiples of 16px for all spacing
+
+### Web Design Rules 08: Visual Hierarchy
+
+- What is visual hierarchy?
+  - Visual hierarchy is about establishing which elements of a design are the most important ones.
+  - It is about drawing attention to the most important elements.
+  - It is also about defining a "path" for users, to guide them through the page.
+  - We use a combination of position, size, colors, spacing, borders, and shadows to establish a meaningful visual hierarchy between elements/components.
+- Visual hierarchy fundamentals:
+  - Position important elements closer to the top of the page, where they get more attention.
+  - Use images midefully, as they draw a lot of attention (large images get more attention)
+  - Whitespace creates separation, so use whitespace strategically to emphasize elements
+- Visual Hierarchy for text elements
+  - For text elements, use font-size, font-weight, color, and whitespace to convey importance.
+  - What text elements to emphasize?
+    - Titles
+    - Sub titles
+    - links
+    - buttons
+    - data points
+    - icons
+  - We can also de-emphasize less important text e.g. labels or secondary/additional info.
+- Visual Hierarchy between components
+  - Emphasize an important component using background color, shadow, or border (or multiple)
+  - Try emphasizing some component A over component B by de-emphasizing component B
+  - What components to emphasize?
+    - Testimonials
+    - Call-to-acton sections
+    - Highlight sections
+    - Preview cards
+    - Forms
+    - Pricing tables
+    - Important rows/columns in tables
+    - etc
 
 ## Author
 
