@@ -22,6 +22,7 @@
     - [Implementing Border-Radius](#implementing-border-radius)
     - [Web Design Rules 07: Whitespace](#web-design-rules-07-whitespace)
     - [Web Design Rules 08: Visual Hierarchy](#web-design-rules-08-visual-hierarchy)
+    - [Implementing Whitespace and Visual Hierarchy](#implementing-whitespace-and-visual-hierarchy)
   - [Author](#author)
 
 ## Lessons Learned
@@ -290,6 +291,8 @@
     - Pricing tables
     - Important rows/columns in tables
     - etc
+
+### Implementing Whitespace and Visual Hierarchy
 
 ## Author
 
