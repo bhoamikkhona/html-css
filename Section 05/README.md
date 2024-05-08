@@ -15,6 +15,7 @@
     - [Implementing Colors](#implementing-colors)
     - [Web Design Rules 03: Images and Illustrations](#web-design-rules-03-images-and-illustrations)
     - [Web Design Rules 04: Icons](#web-design-rules-04-icons)
+    - [Implementing Icons](#implementing-icons)
   - [Author](#author)
 
 ## Lessons Learned
@@ -171,6 +172,15 @@
   - [Phosphor icons](https://phosphoricons.com/)
   - [ionicons](https://ionic.io/ionicons)
   - [icons8](https://icons8.com/)
+  - [heroicons](https://heroicons.com/)
+
+### Implementing Icons
+
+- HTML Element:
+  - `<svg>`
+- CSS Properties:
+  - `stroke`
+  - `fill`
 
 ## Author
 
