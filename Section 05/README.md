@@ -20,6 +20,7 @@
     - [Implementing Shadows](#implementing-shadows)
     - [Web Design Rules 06: Border-radius](#web-design-rules-06-border-radius)
     - [Implementing Border-Radius](#implementing-border-radius)
+    - [Web Design Rules 07: Whitespace](#web-design-rules-07-whitespace)
   - [Author](#author)
 
 ## Lessons Learned
@@ -235,6 +236,25 @@
   - `border-bottom-right-radius`
   - `border-top-right-radius`
   - `border-top-right-radius`
+
+### Web Design Rules 07: Whitespace
+
+- Why Whitespace?
+  - The right amount of whitespace makes designs look clean, modern, and polished
+  - Whitespace communicates how different pieces of information are related to one another
+  - Whitespace implies invisible relationships between the elements of a layout
+- Where to use whitespace?
+  - Use tons of whitespace between sections
+  - Use a lot of whitespace between groups of elements
+  - Use whitespace between elements
+  - Inside groups of elements, try to use whitespace instead of lines
+- How much whitespace?
+  - The law of proximity:
+    - The more some elements (or groups of elements) belong together, the closer they should be.
+  - Start with a lot of whitespace, maybe even too much! Then remove whitespace from there
+    - Too much whitespace looks detached, too little looks too crammed
+  - Match other design choices. If you have big text or big icons, you need more whitespace
+  - Try a hard rule, such as using multiples of 16px for all spacing
 
 ## Author
 
