@@ -19,6 +19,7 @@
     - [Web Design Rules 05: Shadows](#web-design-rules-05-shadows)
     - [Implementing Shadows](#implementing-shadows)
     - [Web Design Rules 06: Border-radius](#web-design-rules-06-border-radius)
+    - [Implementing Border-Radius](#implementing-border-radius)
   - [Author](#author)
 
 ## Lessons Learned
@@ -225,6 +226,15 @@
   - Use border-radius to increase the playfulness and fun of the design, to make it less serious
   - Typefaces have a certain roundness: make sure that border-radius matches that roundness
   - Use border-radius on buttons, images, around icons, stand-out sections, and other elements
+
+### Implementing Border-Radius
+
+- CSS Properties
+  - `border-radius`
+  - `border-bottom-left-radius`
+  - `border-bottom-right-radius`
+  - `border-top-right-radius`
+  - `border-top-right-radius`
 
 ## Author
 
