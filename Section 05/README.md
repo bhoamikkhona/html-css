@@ -17,6 +17,7 @@
     - [Web Design Rules 04: Icons](#web-design-rules-04-icons)
     - [Implementing Icons](#implementing-icons)
     - [Web Design Rules 05: Shadows](#web-design-rules-05-shadows)
+    - [Implementing Shadows](#implementing-shadows)
   - [Author](#author)
 
 ## Lessons Learned
@@ -196,6 +197,26 @@
   - Use large shadows for elements that should really float abvoe the interface
   - Experiment with changing shadows on mouse interaction (click and hover)
   - Bonus: Experiment with glows (colored shadows)
+
+### Implementing Shadows
+
+- HTML Elements
+  - `<figure>` - standard for displaying cards
+- Shadow on Elements:
+  - `box-shadow: horizontal-offset-value vertical-offset-value shadow-blur-value shadow-scale-value shadow-color`
+    - `horizontal-offset-value` basically describes how much to the right do you want to shift your shadow. When it is 0, it is equal on both sides.
+    - `vertical-offset-value` basically describes how much to the bottom do you want to shift your shadow.
+    - `shadow-blur-value` - The larger this value, the bigger the blur so, the shadow becomes bigger and lighter. Negative values are not allowed. If not specified, it will be set to 0 (meaning that the shadow's edge will be sharp)
+    - `shadow-scale-value` is optional. The default value is 0 - which essentially means that the scale of the shadow will be the same size as the element. Positive value would cause the shadow to expand and negative values will cause the shadow to shrink. It is usually not even mentioned.
+    - `shadow-color` - Usually for shadows, we use a small opacity values for colors e.g. rgba(0,0,0,0.1)
+    - e.g. `box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1)`
+- Shadow on Text
+  - `text-shadow: horizontal-offset vertical-offset blur color`
+    - This is similar to box shadow but, it does not have `shadow-scale-value`
+    - e.g. `text-shadow: 0 5px 3px rgba(0, 0, 0, 0.2)`
+
+> [!NOTE]
+> Text shadow is also useful when putting text on images, so that text can stand out.
 
 ## Author
 
