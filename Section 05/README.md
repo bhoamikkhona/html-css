@@ -11,6 +11,7 @@
     - [Overview of Web Design and Website Personalities](#overview-of-web-design-and-website-personalities)
     - [Web Design Rules 01: Typography](#web-design-rules-01-typography)
     - [Implementing Typography](#implementing-typography)
+    - [Web Design Rules 02: Colors](#web-design-rules-02-colors)
   - [Author](#author)
 
 ## Lessons Learned
@@ -92,6 +93,31 @@
   - 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 - FONT SIZE SYSTEM (px)
   - 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+### Web Design Rules 02: Colors
+
+- Make the main color match your website's personality: colors convey meaning!
+- Use a good color tone! Don't choose a random tone or CSS named colors.
+- Establish a color system
+  - You need at least 2 types of colors in your color palette: a main color and a grey color.
+  - With more experience, you can add more colors: accent(secondary) colors
+  - For diversity, create lighter and darker "versions" (tints and shades)
+- When and How to use Colors
+  - Use your main color to draw attention to most important elements on the page.
+  - Use colors to add interesting accents or make entire components or sections stand out.
+  - Use colors strategically in images and illustrations
+- Relations between colors and typography
+  - On dark colored backgrounds, try to use a tint of the background ("lighter version") for text.
+  - Text should usually not be completely black. Lighten it up - if it looks heavy and un-inviting.
+  - Don't make text too light! Use a tool to check contrast between text and background colors.
+    - The contrast ratio needs to be at least 4.5:1 for normal text and 3:1 for large text (18px+)
+- ToolBox
+  - [Open Color](https://yeun.github.io/open-color/)
+  - [Tailwind CSS Color](https://tailwindcss.com/docs/customizing-colors)
+  - [Flat UI Colors](https://flatuicolors.com/)
+  - [Tint and Shade Generator](https://maketintsandshades.com/)
+  - [Paletton](https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
+  - [Coolors](https://coolors.co/)
 
 ## Author
 
