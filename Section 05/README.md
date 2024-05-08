@@ -14,6 +14,7 @@
     - [Web Design Rules 02: Colors](#web-design-rules-02-colors)
     - [Implementing Colors](#implementing-colors)
     - [Web Design Rules 03: Images and Illustrations](#web-design-rules-03-images-and-illustrations)
+    - [Web Design Rules 04: Icons](#web-design-rules-04-icons)
   - [Author](#author)
 
 ## Lessons Learned
@@ -126,11 +127,9 @@
 ### Web Design Rules 03: Images and Illustrations
 
 - Use Good Images
-
   - Different types of images: product photos, storytelling photos, illustrations, patterns
   - Use images to support your website's message and story. So only use relevant images!
   - Prefer original images. If not possible, use original-looking stock images (not generic ones!)
-
 - Use Images Well
   - Try to show real people to trigger user's emotions
   - If necessary, crop images to fit your message
@@ -151,6 +150,27 @@
   - [Drawkit](https://www.drawkit.com/)
   - [unDraw](https://undraw.co/)
   - [Squoosh](https://squoosh.app/)
+
+### Web Design Rules 04: Icons
+
+- Use a good icon pack
+- Use only one icon pack. Don't mix icons from different icon packs
+- Use SVG icons or icon fonts. Don't use bitmap image formats (.jpg and .png)!
+  - SVG imagtes and icon fonts are vector based
+  - They can scale indefinitely!
+- Adjust to website personality! Roundness, weight, and filled/outlined depend on typography
+- Use icons to provide visual assistance to text
+- Use icons for product feature blocks
+- Use icons associated with actions, and label them (unless no space or icon is 100% clear)
+- Use icons as bullet points
+- Use Icons Well
+  - To keep icons neutral, use same color as text. To draw more attention, use different color
+  - Do not confuse your users: icons need to make sense and fit the text or action!
+  - Don't make icons larget than what they were designed for. If needed, enclose them in a shape
+- ToolBox
+  - [Phosphor icons](https://phosphoricons.com/)
+  - [ionicons](https://ionic.io/ionicons)
+  - [icons8](https://icons8.com/)
 
 ## Author
 
