@@ -13,6 +13,7 @@
     - [Implementing Typography](#implementing-typography)
     - [Web Design Rules 02: Colors](#web-design-rules-02-colors)
     - [Implementing Colors](#implementing-colors)
+    - [Web Design Rules 03: Images and Illustrations](#web-design-rules-03-images-and-illustrations)
   - [Author](#author)
 
 ## Lessons Learned
@@ -121,6 +122,35 @@
   - [Coolors](https://coolors.co/)
 
 ### Implementing Colors
+
+### Web Design Rules 03: Images and Illustrations
+
+- Use Good Images
+
+  - Different types of images: product photos, storytelling photos, illustrations, patterns
+  - Use images to support your website's message and story. So only use relevant images!
+  - Prefer original images. If not possible, use original-looking stock images (not generic ones!)
+
+- Use Images Well
+  - Try to show real people to trigger user's emotions
+  - If necessary, crop images to fit your message
+  - Experiment combining photos, illustrations, and patterns
+- Handling Text on Images
+  - Method 01: Darken or Brighten image (completely or partially, using a gradient)
+  - Method 02: Position text into neutral image area
+  - Method 03: Put text in a box
+- Some Technical Details
+  - To account for high-res screens, make image dimensions 2x as big as their displayed size
+    - Scale Factor: Actual pixels the screen contains/Pixels represented on screen
+    - On high-res screens, scale facotr is 2x or even 3x, on "normal" screens it's just 1x (1 physical pixel = 1 design pixel)
+  - Compress images for a lower size and better performance
+  - When using multiple images side-by-side, make sure they have the exact same dimensions
+- Toolbox
+  - [Unsplash](https://unsplash.com/)
+  - [Pexels](https://www.pexels.com/)
+  - [Drawkit](https://www.drawkit.com/)
+  - [unDraw](https://undraw.co/)
+  - [Squoosh](https://squoosh.app/)
 
 ## Author
 
