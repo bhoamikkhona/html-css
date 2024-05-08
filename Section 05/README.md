@@ -16,6 +16,7 @@
     - [Web Design Rules 03: Images and Illustrations](#web-design-rules-03-images-and-illustrations)
     - [Web Design Rules 04: Icons](#web-design-rules-04-icons)
     - [Implementing Icons](#implementing-icons)
+    - [Web Design Rules 05: Shadows](#web-design-rules-05-shadows)
   - [Author](#author)
 
 ## Lessons Learned
@@ -181,6 +182,20 @@
 - CSS Properties:
   - `stroke`
   - `fill`
+
+### Web Design Rules 05: Shadows
+
+- Shadow creates depth (3D): the more shadow, the further away from the interface the element is
+- Shadows can be used on boxes and text
+- You don't have to use shadows! Only use them if it makes sense for the website personality.
+- Use shadow in small doses: don't add shadows to every element.
+- Go light on shadows, don't make them too dark
+- Use Shadows in the Right Situation
+  - Use small shadows for smaller elements that should stand out (to draw attention)
+  - Use medium-sized shadows for larger areas that should stand out a bit more
+  - Use large shadows for elements that should really float abvoe the interface
+  - Experiment with changing shadows on mouse interaction (click and hover)
+  - Bonus: Experiment with glows (colored shadows)
 
 ## Author
 
