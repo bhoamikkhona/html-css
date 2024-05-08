@@ -18,6 +18,7 @@
     - [Implementing Icons](#implementing-icons)
     - [Web Design Rules 05: Shadows](#web-design-rules-05-shadows)
     - [Implementing Shadows](#implementing-shadows)
+    - [Web Design Rules 06: Border-radius](#web-design-rules-06-border-radius)
   - [Author](#author)
 
 ## Lessons Learned
@@ -217,6 +218,13 @@
 
 > [!NOTE]
 > Text shadow is also useful when putting text on images, so that text can stand out.
+
+### Web Design Rules 06: Border-radius
+
+- Use border-radius well
+  - Use border-radius to increase the playfulness and fun of the design, to make it less serious
+  - Typefaces have a certain roundness: make sure that border-radius matches that roundness
+  - Use border-radius on buttons, images, around icons, stand-out sections, and other elements
 
 ## Author
 
