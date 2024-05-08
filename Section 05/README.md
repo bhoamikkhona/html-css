@@ -12,6 +12,7 @@
     - [Web Design Rules 01: Typography](#web-design-rules-01-typography)
     - [Implementing Typography](#implementing-typography)
     - [Web Design Rules 02: Colors](#web-design-rules-02-colors)
+    - [Implementing Colors](#implementing-colors)
   - [Author](#author)
 
 ## Lessons Learned
@@ -118,6 +119,8 @@
   - [Tint and Shade Generator](https://maketintsandshades.com/)
   - [Paletton](https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
   - [Coolors](https://coolors.co/)
+
+### Implementing Colors
 
 ## Author
 
