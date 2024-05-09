@@ -24,6 +24,7 @@
     - [Web Design Rules 08: Visual Hierarchy](#web-design-rules-08-visual-hierarchy)
     - [Implementing Whitespace and Visual Hierarchy](#implementing-whitespace-and-visual-hierarchy)
     - [Web Design Rules 09: User Experience (UX)](#web-design-rules-09-user-experience-ux)
+    - [The Website Personalities Framework](#the-website-personalities-framework)
   - [Author](#author)
 
 ## Lessons Learned
@@ -329,6 +330,18 @@
   - Only include relevant information, efficiently! Cut out fluff and make the content 100% clear
   - Use simple words! Avoid technical jargon and "smart-sounding" words
   - Break up long text with sub-headings, images, block quotes, bullet points, etc.
+
+### The Website Personalities Framework
+
+- 7 Website Personalities
+  - Serious/Elegant
+  - Minimalist/Simple
+  - Plain/Neutral
+  - Bold/Confident
+  - Calm/Peaceful
+  - Startup/Upbeat
+  - Playful/Fun
+- How do you want website to appear to users? What "vibe" do you want to transmit? => Choose one of the website personalities accordingly
 
 ## Author
 
