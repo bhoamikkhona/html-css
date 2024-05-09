@@ -25,6 +25,7 @@
     - [Implementing Whitespace and Visual Hierarchy](#implementing-whitespace-and-visual-hierarchy)
     - [Web Design Rules 09: User Experience (UX)](#web-design-rules-09-user-experience-ux)
     - [The Website Personalities Framework](#the-website-personalities-framework)
+    - [The Missing Piece: Steal like an artist!](#the-missing-piece-steal-like-an-artist)
   - [Author](#author)
 
 ## Lessons Learned
@@ -342,6 +343,15 @@
   - Startup/Upbeat
   - Playful/Fun
 - How do you want website to appear to users? What "vibe" do you want to transmit? => Choose one of the website personalities accordingly
+
+### The Missing Piece: Steal like an artist!
+
+- Not completely copying a design. Instead, it is about taking good parts and adapting them to our needs.
+- ToolBox (Sources for Inspiration)
+  - [Land Book](https://land-book.com/)
+  - [One Page Love](https://onepagelove.com/)
+  - [Awwwards](https://www.awwwards.com/)
+  - [Screenlane](https://screenlane.com/)
 
 ## Author
 
