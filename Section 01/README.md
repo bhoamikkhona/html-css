@@ -9,6 +9,7 @@
   - [Sections](#sections)
   - [Lessons Learned](#lessons-learned)
     - [A High-Level Overview of Web Development](#a-high-level-overview-of-web-development)
+    - [Very First Webpage](#very-first-webpage)
   - [Author](#author)
 
 ## Sections
@@ -61,6 +62,10 @@
     - JavaScript is the actual programming language of the frontend.
     - It allows us to add dynamic and interactive effects to webpages.
     - We can also use it to manipulate the content or the CSS to lead data from web servers and even to build entire frontend applications, which we then call web applications.
+
+### Very First Webpage
+
+- HTML boilerplate
 
 ## Author
 
